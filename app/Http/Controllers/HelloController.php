@@ -24,5 +24,8 @@ class HelloController extends Controller
         return view('hello', compact('namaDepan', 'namaBelakang', 'id'));
     }
 
+    public function testBranch(){
+        return 'ea';
+    }
 
 }
